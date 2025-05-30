@@ -1,0 +1,36 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+year                                                                              0x028A       2
+WT                                                                                0x028C     100
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+s                                                                                 R4,R5        2
+m                                                                                 R6,R7        2
+h                                                                                 R8,R9        2
+day                                                                               R10,R11      2
+month                                                                             R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+Show                                                                              0x0008F     11
+Showf                                                                             0x0009A     13
+Time                                                                              0x000A7     90
+Settime                                                                           0x00101     55
+main                                                                              0x00138     50
+putchar                                                                           0x0016A      7
+puts                                                                              0x00171     18
+put_usart_G100                                                                    0x00183     10
+put_buff_G100                                                                     0x0018D     58
+_print_G100                                                                       0x001C7    308
+sprintf                                                                           0x002FB     46
+printf                                                                            0x00329     31
+strlen                                                                            0x00348     12
+strlenf                                                                           0x00354     13
