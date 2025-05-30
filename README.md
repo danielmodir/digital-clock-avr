@@ -1,6 +1,6 @@
 # ⏰ Adjustable Digital Clock with AVR + Proteus
 
-A simple digital clock project using **AVR ATmega32** and **C language**, simulated in **Proteus**. The clock displays hours, minutes, and seconds on a **16x2 LCD** and supports manual time adjustment via push buttons.
+A simple digital clock project using **AVR ATmega32** and **C language**, simulated in **Proteus**. The clock displays hours, minutes, and seconds and supports manual time adjustment via push buttons.
 
 ## 🔧 Features
 - Real-time clock (HH:MM:SS)
